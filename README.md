@@ -8,7 +8,7 @@ A predictor of future behavior of a targeted criterion based on input/output pro
 - The ```main.py``` file  
 - A utility ```module generate_data.py``` that is used to generate the data for the test of the module
 ## Example of use
-```
+```python
 sol = learn_model(
     y=y,
     U=U,
@@ -22,3 +22,14 @@ sol = learn_model(
     plot=True
     )
 ```
+where
+- ```y``` the output time series 
+- ```U``` the input time series 
+- ```ydef``` the map that defines the target indicator to predict 
+- ```N``` the window width 
+- ```n_clusters``` the number of cluster used in the predictor
+- ```nJump``` the jump size used when processing the data 
+- ```max_leaf_nodes``` the maximum number of leaf nodes in the Random Forest predictor
+- ```test_size``` the test size used in the learning validation split of the data
+- ```validation_mode``` the visualisation mode of the result ('all', 'learning', 'test')
+- ```plot``` whether to plot the results or not. 
