@@ -35,3 +35,7 @@ where
 - ```test_size``` the test size used in the learning validation split of the data
 - ```validation_mode``` the visualisation mode of the result ('all', 'learning', 'test')
 - ```plot``` whether to plot the results or not. 
+
+## Example of result
+
+<img src="./images/screen_shot_result.png" width="50%">
