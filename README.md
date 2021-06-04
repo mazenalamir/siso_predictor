@@ -1,5 +1,10 @@
 # siso_predictor
 A predictor of future behavior of a targeted criterion based on input/output profiles
+
+**Code Citation**
+
+[![DOI](https://zenodo.org/badge/261106477.svg)](https://zenodo.org/badge/latestdoi/261106477)
+
 ## Possible use
 - Forcasting future evolution of an uncontrolled variable from its past 
 - Design a Data-Driven Nonlinear Model Predicive Control
